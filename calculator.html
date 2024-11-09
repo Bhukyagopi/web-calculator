@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" id="res">
+            <button id="btn1" onclick="press('1')">1</button>
+            <button id="btn2" onclick="press('2')">2</button>
+            <button id="btn3" onclick="press('3')">3</button>
+            <button id="btn_revert" onclick="revert()">CLR</button> 
+            <button id="btn4" onclick="press('4')">4</button>
+            <button id="btn5" onclick="press('5')">5</button>
+            <button id="btn6" onclick="press('6')">6</button>
+            <button id="btn_mul" onclick="press('*')">*</button>
+            <button id="btn7" onclick="press('7')">7</button>
+            <button id="btn8" onclick="press('8')">8</button>
+            <button id="btn9" onclick="press('9')">9</button>
+            <button id="btn_plus" onclick="press('+')">+</button>
+            <button id="btn_dot" onclick="press('.')">.</button>
+            <button id="btn0" onclick="press('0')">0</button>
+            <button id="btn_mod" onclick="press('%')">%</button>
+            <button id="btn_min" onclick="press('-')">-</button>
+            <button id="btn_equal" onclick="equal()">=</button> 
+            <button id="btn_div" onclick="press('/')">/</button>           
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
